@@ -1,0 +1,41 @@
+body {
+    background-color:black;
+    padding: 20px;
+    align-items: center;
+}
+.Box{
+    width: 30%;
+    height: 330px;
+    padding: 10px;
+    background-color:white;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.display{
+    width: 98%;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border-color:black;
+    outline: none;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 3px;
+    border-color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.operator{
+    color:black;
+}
