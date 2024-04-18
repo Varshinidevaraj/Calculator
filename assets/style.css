@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color:gainsboro;
     padding: 20px;
     align-items: center;
 }
@@ -7,9 +7,9 @@ body {
     width: 30%;
     height: 330px;
     padding: 10px;
-    background-color:white;
+    background-color:grey;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 50px;
 }
 .display{
@@ -17,7 +17,7 @@ body {
     height: 35px;
     margin-right: 20px;
     border-radius: 3px;
-    border-color:black;
+    border-color:gray;
     outline: none;
     text-align: right;
     color: black;
